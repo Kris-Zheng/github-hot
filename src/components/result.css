@@ -1,0 +1,27 @@
+.cardleft{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 32px;
+    background-color: rgb(221, 221,221);
+    margin: 16px 128px;
+}
+
+.cardright{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 32px;
+    background-color: rgb(221, 221,221);
+    margin: 16px 128px;
+}
+
+.reset{
+    text-align: center;
+    margin: 16px auto;
+}
+
+.reset button{
+    padding:16px 32px;
+    border-radius: 4px;
+}

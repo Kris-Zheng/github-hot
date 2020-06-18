@@ -1,0 +1,112 @@
+.content{
+    display: flex;
+    width:50%;
+    margin: auto;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.content i{
+    background-color: #eee;
+    font-size: 120px !important;
+    padding: 32px;
+}
+
+.tag{
+    font-size: 20px;
+    text-align: center;
+    margin: 8px 16px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+}
+
+.player1{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.player2{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.player1 input{
+    flex: 2;
+    font-size: 16px;
+    color: black;
+}
+
+.player2 input{
+    flex: 2;
+    font-size: 16px;
+    color: black;
+}
+
+.player1 button{
+    flex: 1;
+    font-size: 16px;
+    margin-left: 16px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.player2 button{
+    flex: 1;
+    font-size: 16px;
+    margin-left: 16px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.fa-stack{
+    position:relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.text-danger{
+    color:#f5222d;
+}
+
+.fa-stack-1x{
+    line-height: inherit;
+}
+.fa-stack-2x{
+    font-size: 2rem;
+}
+
+.fa-stack-1x .fa-stack-2x{
+    position: absolute;
+    left: 0;
+    width:10%;
+    text-align: center;
+}
+
+.submit{
+    margin: 16px 0;
+    text-align: center;
+
+}
+
+.submit button{
+    padding: 16px 32px;
+    border-radius: 4px;
+    line-height: 1.15;
+    font-size: 100%;
+}
